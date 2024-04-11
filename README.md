@@ -3,7 +3,7 @@ Setup and Configuration instructions for my most used tools in form of _Markdown
 
 ## Index
 
-| Name | Summary | Source | Tags |
-| ---- | ------- | ------ | ---- |
-| [NeoVim]() | Editor | [neovim.io](https://neovim.io/) | `editor` |
-| [Rust]() | Editor | [rust-lang.org](https://rust-lang.org/) | `programming language` |
+| Name                                                                       | Summary | Source                                  | Tags                   |
+| -------------------------------------------------------------------------- | ------- | --------------------------------------- | ---------------------- |
+| [NeoVim](https://github.com/itsscb/docs/blob/master/development/neovim.md) | Editor  | [neovim.io](https://neovim.io/)         | `editor`               |
+| [Rust](https://github.com/itsscb/docs/blob/master/development/Rust.md)     | Editor  | [rust-lang.org](https://rust-lang.org/) | `programming language` |

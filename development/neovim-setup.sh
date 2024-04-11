@@ -1,5 +1,5 @@
-# install neovim, wget and unzip
-sudo dnf install -y nvim wget unzip
+# install neovim, wget, curl and unzip
+sudo dnf install -y nvim wget curl unzip
 
 # download FiraCode
 wget -O /tmp/fira.zip https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.0/FiraCode.zip
@@ -15,6 +15,10 @@ mkdir ~/.local/share/fonts
 
 # move *.ttf files to fonts folder
 mv /tmp/firacode/*.ttf ~/.local/share/fonts/
+
+# remove temp files
+rm /tmp/fira.zip
+rm -rf /tmp/firacode
 
 # clear and regenerate font cache
 fc-cache -f -v
